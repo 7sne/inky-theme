@@ -10,7 +10,7 @@
   },
   "name": "MAGIC theme",
   "color_schemes": {
-    "Inky Light": {
+    "MAGIC Light": {
       "primary": "2b2c34",
       "secondary": "fefefe",
       "tertiary": "6246EA",
@@ -22,7 +22,7 @@
       "success": "2cb67d",
       "love": "EE4695"
     },
-    "Inky Dark": {
+    "MAGIC Dark": {
       "primary": "94a1b2",
       "secondary": "040408",
       "tertiary": "6246EA",
@@ -32,7 +32,7 @@
       "highlight": "242629",
       "danger": "E95A5C",
       "success": "2cb67d",
-      "love": "EE4695"
+      "love": "E35D9C"
     }
   },
   "components": ["https://github.com/discourse/discourse-search-banner.git"]
