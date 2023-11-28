@@ -30,8 +30,7 @@ html {
   -moz-text-size-adjust: none;
   -webkit-text-size-adjust: none;
   text-size-adjust: none;
-  font-family: var(--font-serif-2);
-  font-size: 112.5%;
+  font-family: var(--font-sans);
   line-height: 1.5;
 }
 
@@ -209,7 +208,7 @@ div.ac-wrap {
     border-top: none;
 
     .link-top-line {
-      font-family: var(--font-serif-2);
+      font-family: var(--font-sans);
 
       // add underline on link hover
       .title:hover {
