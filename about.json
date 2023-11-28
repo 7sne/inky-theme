@@ -1,12 +1,12 @@
 {
   "about_url": "https://meta.discourse.org/t/inky-a-theme-to-make-reading-easy/218741",
   "license_url": "https://github.com/discourse/inky-theme/blob/main/LICENSE",
-  "author": "Ella",
+  "author": "Inovintell",
   "assets": {
     "librebaskerville-regular": "assets/LibreBaskerville-Regular.ttf",
     "librebaskerville-bold": "assets/LibreBaskerville-Bold.ttf",
-    "ptserif-regular": "assets/PTSerif-Regular.ttf",
-    "ptserif-bold": "assets/PTSerif-Bold.ttf"
+    "satoshi-regular": "assets/Satoshi-Regular.ttf",
+    "satoshi-bold": "assets/Satoshi-Bold.ttf"
   },
   "name": "Inky",
   "color_schemes": {
@@ -18,21 +18,21 @@
       "header_background": "fffffe",
       "header_primary": "2b2c34",
       "highlight": "e8e9ec",
-      "danger": "e45858",
+      "danger": "E95A5C",
       "success": "2cb67d",
-      "love": "e45858"
+      "love": "EE4695"
     },
     "Inky Dark": {
       "primary": "94a1b2",
       "secondary": "040408",
-      "tertiary": "7f5af0",
-      "quaternary": "2cb67d",
+      "tertiary": "5B74F0",
+      "quaternary": "2BB5AA",
       "header_background": "242629",
       "header_primary": "fffffe",
       "highlight": "242629",
-      "danger": "fcb4b5",
+      "danger": "E95A5C",
       "success": "2cb67d",
-      "love": "ff4245"
+      "love": "EE4695"
     }
   },
   "components": ["https://github.com/discourse/discourse-search-banner.git"]

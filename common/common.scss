@@ -10,20 +10,20 @@
 }
 
 @font-face {
-  font-family: "PT Serif";
-  src: url($ptserif-regular);
+  font-family: "Satoshi";
+  src: url($satoshi-regular);
 }
 
 @font-face {
-  font-family: "PT Serif";
-  src: url($ptserif-bold);
+  font-family: "Satoshi";
+  src: url($satoshi-bold);
   font-weight: bold;
 }
 
 // Global styles
 :root {
-  --font-serif-1: "Libre Baskerville", serif;
-  --font-serif-2: "PT Serif", serif;
+  --font-serif: "Libre Baskerville", serif;
+  --font-sans: "Satoshi", sans;
 }
 
 html {
@@ -41,7 +41,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: var(--font-serif-1);
+  font-family: var(--font-serif);
 }
 
 input[type="text"],
@@ -67,7 +67,7 @@ textarea,
 .d-editor-textarea-wrapper,
 div.ac-wrap {
   border-color: var(--primary-medium);
-  border-radius: 0.25rem;
+  border-radius: 0.6rem;
 
   &:hover {
     border-color: var(--tertiary);
@@ -133,7 +133,7 @@ div.ac-wrap {
     .btn {
       background-color: var(--tertiary);
       color: var(--secondary);
-      border-radius: 2rem;
+      border-radius: 0.6rem;
       padding-right: 1rem;
       padding-left: 1rem;
 
@@ -150,7 +150,7 @@ div.ac-wrap {
   // breadcrumb select boxes
   .select-kit.combo-box {
     .select-kit-header {
-      border-radius: 2rem;
+      border-radius: 0.6rem;
       padding-left: 0.7rem;
       text-transform: capitalize;
       border-color: var(--primary-very-low);
@@ -170,7 +170,7 @@ div.ac-wrap {
 
   thead {
     tr {
-      border-radius: 0.5rem;
+      border-radius: 0.6rem;
       border-bottom: 0;
     }
 
@@ -265,7 +265,7 @@ div.ac-wrap {
 
     .category {
       border: 1px solid var(--tertiary);
-      border-radius: 0.25rem;
+      border-radius: 0.6rem;
     }
 
     .topics {
@@ -287,7 +287,7 @@ div.ac-wrap {
 
 .topic-map {
   background: transparent;
-  border-radius: 0.5rem;
+  border-radius: 0.6rem;
   border: 1px solid var(--primary-low);
   padding: 0.5rem;
 
@@ -377,8 +377,7 @@ div.ac-wrap {
 //* Poll
 //*---------------------------*/
 .poll-ui-builder .poll-type .poll-type-value {
-  border-radius: 0.25rem;
-
+  border-radius: 0.6rem;
   &.active {
     background-color: var(--primary-medium);
   }
@@ -396,7 +395,7 @@ div.ac-wrap {
 }
 
 .badge-category-bg {
-  border-radius: 2rem;
+  border-radius: 0.6rem;
 }
 
 .badge-wrapper.box {
@@ -427,7 +426,7 @@ div.ac-wrap {
 .alert-info,
 .quote-button,
 .topic-footer-main-buttons button {
-  border-radius: 0.25rem;
+  border-radius: 0.6rem;
 }
 
 .discourse-no-touch .d-header-icons .icon:hover {
