@@ -1,11 +1,11 @@
 @font-face {
-  font-family: "Libre Baskerville";
-  src: url($librebaskerville-regular);
+  font-family: "Boska";
+  src: url($boska-regular);
 }
 
 @font-face {
-  font-family: "Libre Baskerville";
-  src: url($librebaskerville-bold);
+  font-family: "Boska";
+  src: url($boska-bold);
   font-weight: bold;
 }
 
@@ -22,7 +22,7 @@
 
 // Global styles
 :root {
-  --font-serif: "Libre Baskerville", serif;
+  --font-serif: "Boska", serif;
   --font-sans: "Satoshi", sans;
 }
 
@@ -66,11 +66,54 @@ textarea,
 .d-editor-textarea-wrapper,
 div.ac-wrap {
   border-color: var(--primary-medium);
-  border-radius: 0.6rem;
+  border-radius: 0.2rem;
 
   &:hover {
     border-color: var(--tertiary);
   }
+}
+
+.fk-d-button-tooltip .fk-d-tooltip__trigger {
+  padding-inline: 0.6rem;
+  background: none !important;
+}
+
+.reviewable {
+  background: none !important;
+}
+
+.section-title {
+  margin-top: 1.6rem;
+}
+
+#main-outlet-wrapper #main-outlet {
+  background: var(--d-content-background);
+  padding: 1.8rem;
+  margin: 1.6rem 0 1.6rem 0;
+}
+
+category-text-title {
+  gap: 0.6rem;
+}
+
+#topic-title .title-wrapper {
+  gap: 0.4rem 0;
+}
+
+#reply-control .reply-area .submit-panel {
+  margin-top: 1.6rem;
+}
+
+#reply-control .reply-to .reply-details {
+  margin: 0.6rem 0 0.6rem;
+}
+
+#reply-control .with-tags.with-category .title-and-category {
+  gap: 0.6rem;
+}
+
+.d-editor-textarea-column {
+  gap: 1.6rem;
 }
 
 //*---------------------------*/
@@ -132,7 +175,7 @@ div.ac-wrap {
     .btn {
       background-color: var(--tertiary);
       color: var(--secondary);
-      border-radius: 0.6rem;
+      border-radius: 0.2rem;
       padding-right: 1rem;
       padding-left: 1rem;
 
@@ -149,7 +192,7 @@ div.ac-wrap {
   // breadcrumb select boxes
   .select-kit.combo-box {
     .select-kit-header {
-      border-radius: 0.6rem;
+      border-radius: 0.2rem;
       padding-left: 0.7rem;
       text-transform: capitalize;
       border-color: var(--primary-very-low);
@@ -169,7 +212,7 @@ div.ac-wrap {
 
   thead {
     tr {
-      border-radius: 0.6rem;
+      border-radius: 0.2rem;
       border-bottom: 0;
     }
 
@@ -236,6 +279,15 @@ div.ac-wrap {
   }
 }
 
+.more-topics {
+  margin-top: 1.6rem;
+}
+
+.latest-topic-list-item {
+  gap: 1.6rem 0.8rem;
+  padding: 1.6rem;
+}
+
 .topic-list-main-link a.title,
 .topic-list .main-link a.title,
 .latest-topic-list-item .main-link a.title {
@@ -254,6 +306,7 @@ div.ac-wrap {
 .category-list {
   border-collapse: separate;
   border-spacing: 0 15px;
+  padding: 1.6rem;
 
   thead {
     display: none;
@@ -263,8 +316,12 @@ div.ac-wrap {
     border-top: none;
 
     .category {
-      border: 1px solid var(--tertiary);
-      border-radius: 0.6rem;
+      border: 1px solid var(--primary-low);
+      border-radius: 0.4rem;
+
+      &:hover {
+        border-color: var(--tertiary);
+      }
     }
 
     .topics {
@@ -286,7 +343,7 @@ div.ac-wrap {
 
 .topic-map {
   background: transparent;
-  border-radius: 0.6rem;
+  border-radius: 0.2rem;
   border: 1px solid var(--primary-low);
   padding: 0.5rem;
 
@@ -376,7 +433,7 @@ div.ac-wrap {
 //* Poll
 //*---------------------------*/
 .poll-ui-builder .poll-type .poll-type-value {
-  border-radius: 0.6rem;
+  border-radius: 0.2rem;
   &.active {
     background-color: var(--primary-medium);
   }
@@ -394,7 +451,7 @@ div.ac-wrap {
 }
 
 .badge-category-bg {
-  border-radius: 0.6rem;
+  border-radius: 0.2rem;
 }
 
 .badge-wrapper.box {
@@ -425,7 +482,7 @@ div.ac-wrap {
 .alert-info,
 .quote-button,
 .topic-footer-main-buttons button {
-  border-radius: 0.6rem;
+  border-radius: 0.2rem;
 }
 
 .discourse-no-touch .d-header-icons .icon:hover {
