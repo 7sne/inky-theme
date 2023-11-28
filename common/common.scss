@@ -73,6 +73,18 @@ div.ac-wrap {
   }
 }
 
+.category-list tbody .category {
+  padding: 1.4rem;
+}
+
+.top-date-string {
+  font-family: var(--font-sans);
+}
+
+.category-list .category-text-title {
+  gap: 0.4rem;
+}
+
 .fk-d-button-tooltip .fk-d-tooltip__trigger {
   padding-inline: 0.6rem;
   background: none !important;
