@@ -5,6 +5,28 @@
   --font-sans: "Manrope", sans-serif;
 }
 
+.custom-search-banner-wrap .search-menu {
+  display: flex !important;
+  margin-bottom: 30px !important;
+}
+
+.btn no-text btn-icon btn search-icon {
+  font-size: 22px !important;
+}
+
+.custom-search-banner-wrap h1 {
+  line-height: inherit !important;
+  font-weight: 400 !important;
+  font-size: 32px !important;
+}
+
+.search-menu .search-input,
+.search-menu-container .search-input {
+  flex-direction: row-reverse !important;
+  align-items: center !important;
+  padding-right: 1rem;
+}
+
 html {
   -moz-text-size-adjust: none;
   -webkit-text-size-adjust: none;
